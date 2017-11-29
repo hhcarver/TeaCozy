@@ -4,6 +4,7 @@ body {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
+  text-align: center;
   display: flex;
   justify-content: center;
 }
@@ -40,6 +41,12 @@ body {
   display: flex;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 #our-mission {
   background-image: url("../images/mission-background.jpg");
   height: 700px;
@@ -55,4 +62,27 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
+}
+
+#tea {
+  width: 1000px;
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+#row1, #row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#tea img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+#tea1, #tea2, #tea3, #tea4, #tea5 {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
 }
