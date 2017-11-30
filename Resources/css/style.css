@@ -14,7 +14,6 @@ body {
   width: 100%;
   border-bottom: 1px solid seashell;
   position: fixed;
-  top: 0px;
   z-index: 10;
   display: flex;
   align-items: center;
@@ -87,4 +86,47 @@ body {
   display: flex;
   flex-direction: column;
   align-content: space-around;
+}
+
+#location {
+  height: 500px;
+  width: 1200px;
+  position: relative;
+  top: 70px;
+  background-image: url("../images/locations-background.jpg");
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#location h2 {
+  margin-bottom: 15px;
+}
+.boxes {
+  width: 980px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#downtown {
+  width: 300px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 1;
+}
+#bayside {
+  width: 300px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#oakdale {
+  width: 300px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
